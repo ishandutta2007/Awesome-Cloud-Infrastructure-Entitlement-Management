@@ -1,237 +1,135 @@
-# Awesome-Cloud-Infrastructure-Entitlement-Management
+# Awesome Cloud Infrastructure Entitlement Management (CIEM) 🛡️⚡
 
-## Top Cloud Infrastructure Entitlement Management (CIEM) Platforms Ecosystem
+![Awesome Cloud Infrastructure Entitlement Management Banner](assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/CIEM-Cloud%20Identity%20Security-0284c7?style=flat-square&logo=amazon-aws" alt="CIEM" />
+  <img src="https://img.shields.io/badge/Focus-Least--Privilege%20%26%20NHI-818cf8?style=flat-square" alt="Focus" />
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-brightgreen.svg?style=flat-square" alt="Maintained" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🌐 Top Cloud Infrastructure Entitlement Management (CIEM) Platforms & Tools Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**A Curated List of Enterprise SaaS Platforms & Open-Source GitHub Projects**  
+*Focused on Multi-Cloud Permissions Analysis, Least-Privilege Automation, Identity Risk & Non-Human Identity (NHI) Governance across AWS, Azure, and GCP.*  
 
-*Focused on Cloud Permissions Analysis, Least-Privilege Automation, Identity Risk & Non-Human Identity Governance*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Infrastructure Entitlement Management (CIEM)**. These tools help security teams gain visibility into permissions assigned to human and non-human identities, detect excessive access, automate least-privilege enforcement, and identify privilege escalation paths across AWS, Azure, and GCP.
-
-
-
-**Examples** include Sonrai Security, Ermetic (Tenable), Veza, ConductorOne, Grip Security, Palo Alto Prisma Cloud, Cyera, Microsoft Entra Permissions Management, Entitle, Astrix Security, Tenable CIEM, AuthZed Enterprise, Permiso Security, and Axonius (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom entitlement analysis, and transparent identity data — ideal for security teams that need full control over their cloud permissions pipeline without per-identity SaaS fees or vendor lock-in.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Sonrai Security](https://sonraisecurity.com/)**  
-
-  Cloud Permissions Firewall and CIEM platform. Provides visibility into unused permissions, identities, services, and regions across AWS Organizations. Automates least-privilege enforcement with ChatOps on-demand permissions. **Proven results**: Global Atlantic achieved 100% least privilege across 60+ AWS accounts in six days, eliminating 199 unused human identities and 1,310 unused service identities . Named AWS Recommended & Trusted Security Partner .
-
-
-
-- **[Ermetic (Tenable Cloud Security)](https://www.tenable.com/)**  
-
-  **Best-in-class dedicated CIEM** with deepest cloud identity security capabilities. Provides granular CIEM analysis, automated least-privilege recommendations, cross-cloud identity correlation, and built-in just-in-time access provisioning. Acquired by Tenable. Choose Ermetic over Wiz if cloud identity and entitlement management is your primary security challenge .
-
-
-
-- **[Veza](https://veza.com/)**  
-
-  Unified access control platform for data governance, data access management, cloud entitlements, and privileged access. Builds an **Access Graph** cataloging all entities across identity providers, cloud providers, apps, and data systems. Features **Access Intelligence** (hundreds of out-of-the-box assessment queries), **Access Search** (Graph and Query Builder for "who has access to what"), **Access Reviews** (certification campaigns), and **Access Requests** (self-service with multi-party approval workflows) . **NHI Security**: Organizations typically have 10-45 non-human identity accounts per human user; Veza provides comprehensive visibility and governance for service accounts, API keys, and automated systems .
-
-
-
-- **[ConductorOne](https://www.conductorone.com/)**  
-
-  **Autonomous Identity Security platform for humans and AI agents.** Features universal identity graph across users, services, agents, and API keys; real-time activity monitoring; policy-as-code enforcement; AI agent fleet management with central governance controls; dynamic access provisioning based on trust and context; and lifecycle automations . **AI Agent Governance**: MCP self-service with policy-driven tool enforcement, automated approvals with human oversight for sensitive actions .
-
-
-
-- **[Grip Security](https://www.grip.security/)**  
-
-  SaaS Security Control Plane (SSCP) with **SaaS Identity Risk Management (SIRM)** framework. **Policy Center** provides no-code automation rules (e.g., "AI app + risk score > 80 + no SSO/MFA → initiate Identity Offboarding workflow"). **Customizable Workflows** with drag-and-drop interface for App Onboarding, Password Rotation, and Identity Offboarding . Discovers shadow SaaS, GenAI tools, dormant accounts, risky OAuth grants, and rogue IaaS tenants . Customer halved alert triage time by 50% .
-
-
-
-- **[Palo Alto Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud)**  
-
-  CIEM module within Prisma Cloud CNAPP. Named a **Leader and Outperformer in CIEM by GigaOm** . Provides multi-cloud permissions management with graph visualization, AWS IAM Identity Center integration, and AWS tag support .
-
-
-
-- **[Microsoft Entra Permissions Management](https://learn.microsoft.com/entra/permissions-management/)**  
-
-  Microsoft's CIEM solution providing comprehensive visibility into permissions assigned to all identities (users and workloads), actions, and resources across Azure, AWS, and GCP. Detects, right-sizes, and monitors unused and excessive permissions for Zero Trust least-privilege access .
-
-
-
-- **[Entitle](https://www.entitle.io/)**  
-
-  **Just-in-Time (JIT) Access platform** that reduces elevated access by 91% while maintaining employee experience. Automates fine-grained temporary access to production and customer data with auto-revocation after duration, ticket resolution, or on-call rotation. Reduces access request support tickets by 85% . SOC 2 Type II compliant with cloud or self-hosted deployments .
-
-
-
-- **[Astrix Security](https://astrix.security/)**  
-
-  **Non-Human Identity (NHI) security pioneer** — API keys, service accounts, OAuth tokens, and AI agents. Discover, govern, and protect every agentic and non-human identity from provisioning to decommissioning. **Acquired by Cisco (May 2026)** with capabilities integrated across Cisco Security platform including Identity Intelligence, Secure Access, Duo, and Splunk . Raised $85M+ including $45M Series B .
-
-
-
-- **[Tenable CIEM](https://www.tenable.com/)**  
-
-  Cloud identity security for the identity-intelligent enterprise. Ermetic's CIEM capabilities integrated into Tenable's platform .
-
-
-
-- **[AuthZed Enterprise](https://authzed.com/)**  
-
-  Enterprise authorization platform built on **SpiceDB** (open-source). February 2026 release introduces **Postgres Foreign Data Wrapper** (experimental) allowing permission checks as SELECT statements, and **self keyword** in schema permissions for "user can view themselves" without extra relationships .
-
-
-
-- **[Permiso Security](https://permiso.io/)**  
-
-  Cloud-native identity security platform detecting threats across human, non-human, and agentic identities. Uses **2,500+ research-driven signals across 70+ identity partners** for overprivileged access, unused permissions, anomalous agent behavior, and high blast radius behavior in real time . **Acquired by Okta (August 2026)** to extend Okta's ITDR capabilities .
-
-
-
-- **[Axonius](https://www.axonius.com/)**  
-
-  Identity governance platform unifying human, NHI, SaaS, cloud, and on-prem identities. Shifts from static roles to **dynamic rules** for entitlement alignment. Features Profiles (define what access should look like), Rules (automatically align entitlements to lifecycle events), and Workflows (policy-driven access actions) .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Multi-Cloud CIEM & Posture Assessment
-
-
-
-- **[Prowler](https://github.com/prowler-cloud/prowler)**  
-
-  **The most widely utilized open-source CIEM and cloud security assessment platform.** Covers **AWS, Azure, GCP, and Kubernetes** with hundreds of checks mapped to CIS benchmarks and NCSC Cyber Essentials 3.3 framework . **Benchmark performance**: Achieved **65% coverage** across 57 documented AWS IAM privilege escalation paths . Features custom policy creation, CLI-first scriptable, exportable detections (JSON, CSV, JUnit, HTML), and no vendor lock-in . **Open source**.
-
-
-
-- **[Cartography (Lyft)](https://github.com/lyft/cartography)**  
-
-  **Infrastructure graphing and querying platform.** Ingests cloud assets into a **Neo4j graph database** to enable cross-boundary queries . Provides the underlying data structure for advanced entitlement analysis — map identities, resources, and their relationships for "who can reach what" analysis. **Open source**.
-
-
-
-- **[CloudQuery](https://github.com/cloudquery/cloudquery)**  
-
-  **Open-source data movement framework** syncing cloud configurations into SQL databases (PostgreSQL, etc.) for complex relational analysis . First-class support for AWS, GCP, and Azure. Enables entitlement analysis through SQL queries on synchronized configuration data. **Open source**.
-
-
-
-### AWS IAM Policy Analysis
-
-
-
-- **[Cloudsplaining (Salesforce)](https://github.com/salesforce/cloudsplaining)**  
-
-  **AWS IAM policy analysis tool** identifying least-privilege violations by parsing IAM policies to flag resource exposure and privilege escalation potential . Delivers findings via **risk-prioritized HTML report**. **Benchmark performance**: 35% coverage across AWS IAM privilege escalation paths . **Open source**.
-
-
-
-- **[PMapper (Principal Mapper)](https://github.com/nccgroup/PMapper)**  
-
-  **Privilege escalation pathfinding tool** using a **graph model** to analyze trust policies and resource-based policies . Answers "who can reach what" by simulating authorization decisions to find actual escalation routes. **Benchmark performance**: 33% coverage across AWS IAM privilege escalation paths . **Open source**.
-
-
-
-### Policy Generation & Least-Privilege Automation
-
-
-
-- **[policy_sentry (Salesforce)](https://github.com/salesforce/policy_sentry)**  
-
-  **Preventative policy generation tool.** Allows engineers to declare required access levels via **YAML templates** to automatically generate least-privilege IAM policies, reducing reliance on dangerous wildcards . Implement in CI/CD pipelines to move from manual editing to automated, least-privilege policy creation . **Open source**.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Multi-Cloud Assessment**: **Prowler** (broadest coverage, 65% privilege escalation coverage) .
-
-- **Graph Analysis**: **Cartography** (Neo4j-based relationship mapping) .
-
-- **SQL Analysis**: **CloudQuery** (sync to SQL for relational queries) .
-
-- **AWS IAM Hygiene**: **Cloudsplaining** (risk-prioritized HTML reports) .
-
-- **Privilege Escalation**: **PMapper** (graph-based pathfinding) .
-
-- **Policy Generation**: **policy_sentry** (YAML → least-privilege policies) .
-
-
-
-**Frameworks for building custom systems**: Follow the structured sequence recommended for effective entitlement programs : **Size the problem** with **Prowler** for breadth and **Cloudsplaining** for AWS IAM hygiene; **Identify paths** with **PMapper** for escalation routes; **Remediate non-human identities** first (highest unused permissions, lowest workflow disruption risk); **Automate generation** with **policy_sentry** in CI/CD pipelines. Add **Cartography** or **CloudQuery** for underlying graph/SQL analysis infrastructure.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- CIEM platforms handle sensitive cloud identity and permission data; ensure proper access controls and compliance with organizational security policies.
-
-- **Open-source reality**: The open-source ecosystem for CIEM is **mature at the discovery and analysis layers** but **lacks unified platform capabilities**. **Prowler** provides the broadest multi-cloud assessment with 65% privilege escalation coverage . **PMapper** and **Cloudsplaining** offer complementary AWS IAM analysis (33% and 35% coverage respectively) . **policy_sentry** enables preventative least-privilege policy generation . However, **commercial platforms** (Sonrai, Ermetic, Veza, ConductorOne, Grip) provide **automated remediation, just-in-time access, approval workflows, and unified multi-cloud governance** that open-source alternatives require significant integration and engineering investment to match. The open-source path is most viable for organizations with strong cloud security engineering capacity or for specific discovery/analysis use cases.
-
-
+**Last updated: September 2026** 📅
 
 ---
 
+### 🚀 Overview & Search Keywords
+Cloud Infrastructure Entitlement Management (**CIEM**) empowers cloud security architects, IAM engineers, and SOC teams to discover unused permissions, enforce Zero Trust least-privilege policies, map privilege escalation routes, and govern non-human identities (service accounts, API keys, OAuth tokens, AI agents).
 
+*Keywords: Cloud Infrastructure Entitlement Management, CIEM, Cloud Security, IAM Least Privilege, Non-Human Identity Governance, Identity Threat Detection & Response (ITDR), Multi-Cloud Access Graph, AWS IAM Analysis, Azure Role Entitlements, GCP IAM Governance.*
 
-**Made for cloud security architects, IAM engineers, SOC analysts, and identity governance teams.**
+---
 
-Let's make cloud entitlement management more open, transparent, and least-privileged.
+## 📑 Table of Contents
+- [📊 Market Overview & Ecosystem Size](#-market-overview--ecosystem-size)
+- [🏢 SaaS & Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+
+---
+
+## 📊 Market Overview & Ecosystem Size
+
+> [!NOTE]
+> The Cloud Infrastructure Entitlement Management (CIEM) sector is estimated at **$1.8 Billion** in 2026 and is projected to grow to **$4.5+ Billion** by 2030 (CAGR ~25%). The market is **moderately fragmented**, undergoing consolidation as major CNAPP leaders (Palo Alto Networks, Tenable, Cisco, Okta) acquire dedicated pioneers (Ermetic, Astrix, Permiso) to integrate identity graph capabilities alongside standalone specialized governance providers.
+
+---
+
+## 🏢 SaaS & Commercial Hosted Platforms
+
+*Below is a detailed comparison of top commercial CIEM, Identity Governance, and Non-Human Identity (NHI) security platforms, sorted by enterprise valuation / estimated company scale (descending).*
+
+| SaaS Platform 🚀 | Market Scale / Valuation 💰 | Starting Pricing 🏷️ | Free Tier / Trial Limits 🎁 | Key Security & Governance Features 🔑 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Palo Alto Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud)** | **$110 Billion+** (Public: PANW) | Starting from ~$90/credit/year (min tier ~100 credits, ~$9,000/yr) | 30-day full feature free trial (up to 100 cloud resources) | Enterprise CNAPP platform with GigaOm Leader CIEM module, AWS IAM Identity Center graph analysis, and multi-cloud permission mapping. |
+| **[Microsoft Entra Permissions Management](https://learn.microsoft.com/entra/permissions-management/)** | **$3.1 Trillion+** (Public: MSFT) | $10.40 per resource per month ($124.80/resource/year) | 90-day free trial (up to 100 resources across Azure, AWS, and GCP) | Comprehensive Zero Trust discovery, right-sizing, and continuous monitoring of human and workload identity entitlements. |
+| **[Tenable CIEM / Ermetic](https://www.tenable.com/)** | **$5.2 Billion** (Public: TENB) | Starting from ~$15,000/year base platform subscription | 30-day full access free trial for AWS, Azure, and GCP workloads | Best-in-class dedicated CIEM (acquired Ermetic) providing granular permissions analysis, automated remediations, and JIT access. |
+| **[Axonius](https://www.axonius.com/)** | **$2.6 Billion** (Private valuation) | Starting from ~$15,000/year base license | 14-day free trial (full enterprise asset & identity coverage) | Dynamic identity governance connecting human, NHI, SaaS, and cloud identities with policy-driven automated enforcement workflows. |
+| **[Veza](https://veza.com/)** | **$700 Million+** (Private valuation) | Starting from ~$25,000/year platform subscription | 14-day guided proof-of-concept trial (up to 5 cloud connectors) | Access Graph engine mapping identities across IdPs, cloud, and databases with advanced Non-Human Identity (NHI) governance. |
+| **[Grip Security](https://www.grip.security/)** | **$350 Million+** (Private valuation) | Starting from ~$12,000/year enterprise base | 14-day free discovery assessment (shadow SaaS & OAuth grant audit) | SaaS Identity Risk Management (SIRM) control plane with no-code offboarding and automated GenAI/OAuth risk mitigation. |
+| **[Sonrai Security](https://sonraisecurity.com/)** | **$250 Million+** (Private valuation) | Starting from ~$10,000/year cloud environment tier | 14-day free trial (AWS Organization permissions audit) | Cloud Permissions Firewall & ChatOps JIT permissions; proven 100% least-privilege enforcement across 60+ AWS accounts in days. |
+| **[ConductorOne](https://www.conductorone.com/)** | **$200 Million+** (Private valuation) | Starting from $6 per user/month ($72/user/year) | 30-day free trial (unlimited identity connectors and JIT requests) | Autonomous Identity Security platform for humans & AI agents with policy-as-code enforcement and Model Context Protocol (MCP) governance. |
+| **[Astrix Security](https://astrix.security/)** | **Acquired by Cisco** (May 2026, $85M+ raised) | Enterprise custom quote (starts ~$15,000/yr post-acquisition) | 14-day free NHI risk assessment (discovers API keys, OAuth, service accounts) | Pioneer in Non-Human Identity (NHI) and AI agent security, protecting secret tokens, OAuth apps, and service accounts from provisioning to retirement. |
+| **[Permiso Security](https://permiso.io/)** | **Acquired by Okta** (Aug 2026, Series A raised) | Enterprise custom quote (starts ~$18,000/yr post-acquisition) | 14-day free identity threat detection trial | Identity Threat Detection & Response (ITDR) analyzing 2,500+ signals across 70+ identity providers for runtime overprivilege and agentic risk. |
+| **[Entitle](https://www.entitle.io/)** | **$80 Million+** (Private valuation) | Starting from $4 per user/month ($48/user/year) | 14-day free trial (up to 50 active temporary access requests) | Fine-grained Just-In-Time (JIT) access engine reducing elevated access by 91% with auto-revocation and ticket system integrations. |
+| **[AuthZed Enterprise](https://authzed.com/)** | **$30 Million+** (Private valuation) | Enterprise Cloud from $500/month ($6,000/year) | Developer Free Tier (forever free up to 1M permission checks/month) | Commercial enterprise platform powered by open-source SpiceDB, featuring SQL permission checks and fine-grained relationship-based access control. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+*Below is a curated collection of active open-source repositories for self-hosted CIEM, cloud policy analysis, privilege escalation detection, and infrastructure graphing, sorted by GitHub Star Count (descending).* 🌟
+
+| Project Name 🛠️ | GitHub Star Count ⭐ | Primary CIEM Category 🏷️ | Core Capabilities & Description 📝 |
+| :--- | :--- | :--- | :--- |
+| **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** | [<img src="https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white" alt="Stars"/>](https://github.com/cloud-custodian/cloud-custodian/stargazers) | Policy-as-Code & Compliance 📜 | High-performance rules engine for real-time cloud security, identity governance, cost optimization, and IAM resource cleanup across AWS, Azure, and GCP. |
+| **[Prowler](https://github.com/prowler-cloud/prowler)** | [<img src="https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white" alt="Stars"/>](https://github.com/prowler-cloud/prowler/stargazers) | Multi-Cloud CIEM & Security Audit ⚡ | Broadest open-source multi-cloud security assessment tool covering 65% of AWS IAM privilege escalation paths across AWS, Azure, GCP, and Kubernetes. |
+| **[CloudQuery](https://github.com/cloudquery/cloudquery)** | [<img src="https://img.shields.io/github/stars/cloudquery/cloudquery?style=social&color=white" alt="Stars"/>](https://github.com/cloudquery/cloudquery/stargazers) | SQL Data Sync & Entitlement Analysis 🗄️ | High-speed data movement framework extracting multi-cloud infrastructure & identity configurations into PostgreSQL/Snowflake for relational SQL entitlement queries. |
+| **[Cloudsplaining](https://github.com/salesforce/cloudsplaining)** | [<img src="https://img.shields.io/github/stars/salesforce/cloudsplaining?style=social&color=white" alt="Stars"/>](https://github.com/salesforce/cloudsplaining/stargazers) | AWS IAM Policy Risk Analysis 🔍 | Parses AWS IAM policies to detect wildcard permissions, resource exposure, and privilege escalation vulnerabilities with HTML risk reports. |
+| **[policy_sentry](https://github.com/salesforce/policy_sentry)** | [<img src="https://img.shields.io/github/stars/salesforce/policy_sentry?style=social&color=white" alt="Stars"/>](https://github.com/salesforce/policy_sentry/stargazers) | Preventative Policy Generation 📝 | Declares security requirements in clean YAML templates to automatically generate least-privilege AWS IAM policies without dangerous wildcards. |
+| **[PMapper (Principal Mapper)](https://github.com/nccgroup/PMapper)** | [<img src="https://img.shields.io/github/stars/nccgroup/PMapper?style=social&color=white" alt="Stars"/>](https://github.com/nccgroup/PMapper/stargazers) | Privilege Escalation Graph Analysis 🕸️ | Graph-based pathfinding engine simulating AWS IAM authorization decisions and trust relationships to uncover hidden privilege escalation routes. |
+| **[IAMbic](https://github.com/noqdev/iambic)** | [<img src="https://img.shields.io/github/stars/noqdev/iambic?style=social&color=white" alt="Stars"/>](https://github.com/noqdev/iambic/stargazers) | Multi-Cloud IAM-as-Code & GitOps 🔄 | Bi-directional GitOps framework managing IAM policies across AWS, Okta, Azure AD, and Google Workspace via version-controlled YAML files. |
+| **[Awspx](https://github.com/ReversecLabs/awspx)** | [<img src="https://img.shields.io/github/stars/ReversecLabs/awspx?style=social&color=white" alt="Stars"/>](https://github.com/ReversecLabs/awspx/stargazers) | Graph Visualization & Attack Path 🎯 | Graph-based AWS resource and identity visualizer powered by Neo4j to compute dynamic attack paths and privilege boundaries. |
+| **[Cartography](https://github.com/cartography-cncf/cartography)** | [<img src="https://img.shields.io/github/stars/cartography-cncf/cartography?style=social&color=white" alt="Stars"/>](https://github.com/cartography-cncf/cartography/stargazers) | Infrastructure & Identity Graphing 🌐 | CNCF open-source platform syncing multi-cloud assets and permissions into Neo4j for cross-domain identity relationship analysis. |
+
+---
+
+### 💡 Recommended Open-Source Architecture Flow
+Security engineering teams building an internal CIEM pipeline can implement the following staged workflow:
+1. **Scope & Audit**: Run **Prowler** for multi-cloud baseline checks and **Cloudsplaining** for AWS IAM risk report generation.
+2. **Escalation Path Finding**: Execute **PMapper** and **Awspx** to calculate structural privilege escalation paths in graph models.
+3. **Continuous Data Ingestion**: Deploy **CloudQuery** or **Cartography** to store identity relationships in SQL or Neo4j.
+4. **Preventative Least Privilege**: Integrate **policy_sentry** into CI/CD pipelines and **IAMbic** for bi-directional GitOps identity management.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! 💖 Please follow these steps to add or update projects:
+
+1. **Fork** this repository.
+2. Update `README.md` following the tabular markdown format.
+3. Ensure all links are factual and descriptions highlight primary entitlement/identity features.
+4. Submit a **Pull Request (PR)** with a clear title.
+
+Please check out our list of awesome resources at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)!
+
+---
+
+## ⚠️ Disclaimer
+
+- This curated list is maintained by the community for informational and educational purposes.
+- CIEM tools inspect sensitive production identity settings; ensure strict role-based controls when installing scanning engines.
+- **Open-source vs SaaS**: While open-source tools excel at discovery and policy generation, enterprise SaaS platforms (Palo Alto, Tenable/Ermetic, Veza, Grip, Sonrai) provide automated Just-In-Time (JIT) access, user approval portals, and turnkey multi-cloud governance.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your cloud security architecture or IAM governance initiatives, please consider supporting the project!
+
+- 🌟 **Star this repository** to help others discover it!
+- 🔀 **Fork it** to contribute new CIEM tools.
+- 📢 **Share it** with your cloud security and DevOps teams!
+- ☕ **Buy me a coffee / Sponsor**: [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)
+
+Thank you to all contributors and cloud security engineers working toward least-privileged cloud environments! 🙌
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Infrastructure-Entitlement-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Infrastructure-Entitlement-Management&type=date&legend=top-left)
+
+---
+
+**Made with ❤️ for Cloud Security Architects, IAM Engineers, and DevSecOps Teams.**
