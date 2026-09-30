@@ -67,9 +67,9 @@ Cloud Infrastructure Entitlement Management (**CIEM**) empowers cloud security a
 
 ## 🔓 Open-Source GitHub Projects
 
-*Below is a curated collection of active open-source repositories for self-hosted CIEM, cloud policy analysis, privilege escalation detection, and infrastructure graphing, sorted by GitHub Star Count (descending).* 🌟
+*Below is a curated collection of active open-source repositories for self-hosted CIEM, cloud policy analysis, privilege escalation detection, and infrastructure graphing, sorted by GitHub Stars_Count (descending).* 🌟
 
-| Project Name 🛠️ | GitHub Star Count ⭐ | Primary CIEM Category 🏷️ | Core Capabilities & Description 📝 |
+| Project Name 🛠️ | GitHub Stars_Count ⭐ | Primary CIEM Category 🏷️ | Core Capabilities & Description 📝 |
 | :--- | :--- | :--- | :--- |
 | **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** | [<img src="https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white" alt="Stars"/>](https://github.com/cloud-custodian/cloud-custodian/stargazers) | Policy-as-Code & Compliance 📜 | High-performance rules engine for real-time cloud security, identity governance, cost optimization, and IAM resource cleanup across AWS, Azure, and GCP. |
 | **[Prowler](https://github.com/prowler-cloud/prowler)** | [<img src="https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white" alt="Stars"/>](https://github.com/prowler-cloud/prowler/stargazers) | Multi-Cloud CIEM & Security Audit ⚡ | Broadest open-source multi-cloud security assessment tool covering 65% of AWS IAM privilege escalation paths across AWS, Azure, GCP, and Kubernetes. |
